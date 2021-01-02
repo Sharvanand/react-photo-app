@@ -14,7 +14,7 @@ class SearchBar extends Component {
                 <form onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
                         <label>
-                            Image Search
+                            Photo Search
                         </label>
                     <input type="text" value={this.state.term} onChange={(e) => this.setState({term:e.target.value})}/>
                     </div>
